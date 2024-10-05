@@ -1,0 +1,22 @@
+// flex y centrado
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+//atributos de borde
+@mixin border($color, $width, $style) {
+    border-color: $color;
+    border-width: $width;
+    border-style: $style;
+}
+
+//Sin padding a la derecha e izquierda
+@mixin sin-padding-lados {
+    padding-left: 0px;
+    padding-right: 0px;
+}
